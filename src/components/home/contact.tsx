@@ -4,8 +4,8 @@ import { Box, Button, Input, Textarea } from "@chakra-ui/react";
 import { ContactText } from "../common/contact_text";
 export const Contact = () => {
   const userId = process.env.REACT_APP_USER_ID;
-  const serviceId = process.env.service_ni3z47a;
-  const templateId = process.env.template_qt15ukd;
+  const serviceId = process.env.REACT_APP_SERVICE_ID;
+  const templateId = process.env.REACT_APP_TEMPLATE_ID;
 
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
