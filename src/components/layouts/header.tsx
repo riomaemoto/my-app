@@ -14,6 +14,7 @@ import { HamburgerIcon } from "@chakra-ui/icons";
 import React, { FC } from "react";
 import { Link } from "react-router-dom";
 import { FirstColor } from "../../constants";
+import { Logo } from "./logo";
 
 type CloseLinkTyp = {
   to: string;
@@ -43,31 +44,32 @@ export const Header: FC = (props) => {
     <>
       <Flex
         as="nav"
-        bgColor={FirstColor}
+        bgColor={"whiteAlpha.100"}
         align="center"
         justify="space-between"
         padding={{ base: 3, md: 5 }}
       >
+        <Logo />
+
         <Flex align="center" as="a" mr={8} _hover={{ cursor: "pointer" }}>
           <Link to="/">
             <Heading as="h1" fontSize={{ base: "md", md: "lg" }}>
               <Text
                 align={"center"}
-                color={"white"}
+                color={"black"}
                 fontSize={{ base: "18", md: "25" }}
-                pl={{ base: "90px", md: 300, lg: 400, xl: 700 }}
                 letterSpacing={4}
                 maxW="full"
                 mt={0}
               >
-                2TheNextStage
+                MoralesrrPhoto
               </Text>
             </Heading>
           </Link>
         </Flex>
 
         <IconButton
-          color={"white"}
+          color={"blackAlpha.900"}
           aria-label="メニューボタン"
           icon={<HamburgerIcon boxSize={8} />}
           size={"sm"}
@@ -84,6 +86,7 @@ export const Header: FC = (props) => {
             <DrawerBody p={0} bg="gray.100">
               <CloseLink to="/" style={LinkStyle}>
                 <Text
+                  align={"center"}
                   _focus={{ _focus: "none" }}
                   style={dwTextStyle}
                   _hover={{
@@ -97,6 +100,7 @@ export const Header: FC = (props) => {
               </CloseLink>
               <CloseLink to="/pictures" style={LinkStyle}>
                 <Text
+                  align={"center"}
                   _focus={{ _focus: "none" }}
                   style={dwTextStyle}
                   _hover={{
@@ -110,6 +114,7 @@ export const Header: FC = (props) => {
               </CloseLink>
               <CloseLink to="/contact" style={LinkStyle}>
                 <Text
+                  align={"center"}
                   _focus={{ _focus: "none" }}
                   style={dwTextStyle}
                   _hover={{

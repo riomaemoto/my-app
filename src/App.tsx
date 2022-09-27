@@ -4,12 +4,10 @@ import { Footer } from "./components/layouts/footer";
 import { Header } from "./components/layouts/header";
 import { Plan } from "./pages/plan";
 import { Home } from "./pages/home";
-import { Contact } from "./pages/contact";
 
 const links = [
   { path: "/", component: <Home /> },
   { path: "/pictures", component: <Plan /> },
-  { path: "/contact", component: <Contact /> },
 ];
 
 const Router = () => {

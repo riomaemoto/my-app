@@ -1,14 +1,14 @@
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
 import { FC } from "react";
-import { absgirl, main, looking, thigh, pull, abs } from "../../constants";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
-
+import { rabby, wedding, yuki } from "../../constants";
 export const Slider: FC = () => {
   const ImgSize = css`
     img {
-      max-height: 900px;
+      max-height: 700px;
+      object-fit: contain;
     }
   `;
   return (
@@ -19,12 +19,9 @@ export const Slider: FC = () => {
       showThumbs={false}
       stopOnHover={false}
     >
-      <img src={main} alt="main" />
-      <img src={looking} alt="looking" />
-      <img src={absgirl} alt="absgirl" />
-      <img src={pull} alt="pull" />
-      <img src={thigh} alt="thigh" />
-      <img src={abs} alt="abs" />
+      <img src={rabby} alt="rabby" />
+      <img src={yuki} alt="yuki" />
+      <img src={wedding} alt="wedding" />
     </Carousel>
   );
 };
