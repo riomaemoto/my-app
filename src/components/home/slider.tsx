@@ -20,9 +20,9 @@ export const Slider: FC = () => {
       showThumbs={false}
       stopOnHover={false}
     >
-      <Image mt={"50px"} src={rabby} alt="rabby" />
-      <Image mt={"50px"} src={yuki} alt="yuki" />
-      <Image mt={"50px"} src={wedding} alt="wedding" />
+      <Image mt={"5px"} src={rabby} alt="rabby" />
+      <Image mt={"5px"} src={yuki} alt="yuki" />
+      <Image mt={"5px"} src={wedding} alt="wedding" />
     </Carousel>
   );
 };

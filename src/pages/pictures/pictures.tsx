@@ -1,110 +1,193 @@
-import { Box, Center, Image } from "@chakra-ui/react";
+import { Box, Image } from "@chakra-ui/react";
 import { ocean, rabby, wedding, yuki } from "../../constants";
-import { Wrap, WrapItem } from "@chakra-ui/react";
 export const Pictures = () => {
   return (
     <>
-      <Center>
-        <Wrap>
-          <Box></Box>
-          <WrapItem>
-            <Image w={500} h={400} src={rabby} alt="rabby" />
-          </WrapItem>
-          <WrapItem>
-            <Image w={500} h={400} src={wedding} alt="wedding" />
-          </WrapItem>
-          <WrapItem>
-            <Image w={500} h={400} src={ocean} alt="ocean" />
-          </WrapItem>
-          <WrapItem>
-            <Image w={500} h={400} src={yuki} alt="yuki" />
-          </WrapItem>
-          <WrapItem>
-            <Image w={500} h={400} src={rabby} alt="rabby" />
-          </WrapItem>
-          <WrapItem>
-            <Image w={500} h={400} src={wedding} alt="wedding" />
-          </WrapItem>
-          <WrapItem>
-            <Image w={500} h={400} src={yuki} alt="yuki" />
-          </WrapItem>
-          <WrapItem>
-            <Image w={500} h={400} src={ocean} alt="ocean" />
-          </WrapItem>
-          <WrapItem>
-            <Image w={500} h={400} src={rabby} alt="rabby" />
-          </WrapItem>
-          <WrapItem>
-            <Image w={500} h={400} src={wedding} alt="wedding" />
-          </WrapItem>
-          <WrapItem>
-            <Image w={500} h={400} src={yuki} alt="yuki" />
-          </WrapItem>
-          <WrapItem>
-            <Image w={500} h={400} src={ocean} alt="ocean" />
-          </WrapItem>
-          <WrapItem>
-            <Image w={500} h={400} src={rabby} alt="rabby" />
-          </WrapItem>
-          <WrapItem>
-            <Image w={500} h={400} src={wedding} alt="wedding" />
-          </WrapItem>
-          <WrapItem>
-            <Image w={500} h={400} src={yuki} alt="yuki" />
-          </WrapItem>
-          <WrapItem>
-            <Image w={500} h={400} src={ocean} alt="ocean" />
-          </WrapItem>
-          <WrapItem>
-            <Image w={500} h={400} src={rabby} alt="rabby" />
-          </WrapItem>
-          <WrapItem>
-            <Image w={500} h={400} src={wedding} alt="wedding" />
-          </WrapItem>
-          <WrapItem>
-            <Image w={500} h={400} src={yuki} alt="yuki" />
-          </WrapItem>
-          <WrapItem>
-            <Image w={500} h={400} src={ocean} alt="ocean" />
-          </WrapItem>
-          <WrapItem>
-            <Image w={500} h={400} src={rabby} alt="rabby" />
-          </WrapItem>
-          <WrapItem>
-            <Image w={500} h={400} src={wedding} alt="wedding" />
-          </WrapItem>
-          <WrapItem>
-            <Image w={500} h={400} src={yuki} alt="yuki" />
-          </WrapItem>
-          <WrapItem>
-            <Image w={500} h={400} src={ocean} alt="ocean" />
-          </WrapItem>
-          <WrapItem>
-            <Image w={500} h={400} src={rabby} alt="rabby" />
-          </WrapItem>
-          <WrapItem>
-            <Image w={500} h={400} src={wedding} alt="wedding" />
-          </WrapItem>
-          <WrapItem>
-            <Image w={500} h={400} src={yuki} alt="yuki" />
-          </WrapItem>
-          <WrapItem>
-            <Image w={500} h={400} src={ocean} alt="ocean" />
-          </WrapItem>
-          <WrapItem>
-            <Image w={500} h={400} src={rabby} alt="rabby" />
-          </WrapItem>
-          <WrapItem>
-            <Image w={500} h={400} src={wedding} alt="wedding" />
-          </WrapItem>
-          <WrapItem>
-            <Image w={500} h={400} src={yuki} alt="yuki" />
-          </WrapItem>
-          <WrapItem>
-            <Image w={500} h={400} src={ocean} alt="ocean" />
-          </WrapItem>
-        </Wrap>
-      </Center>
+      <Box ml={{ base: "10%", md: "15%" }} display={"flex"} flexWrap={"wrap"}>
+        <Image
+          w={{ base: "90%", md: "80%" }}
+          p={"4%"}
+          src={rabby}
+          alt="rabby"
+        />
+
+        <Image
+          w={{ base: "90%", md: "80%" }}
+          p={"4%"}
+          src={wedding}
+          alt="wedding"
+        />
+
+        <Image
+          w={{ base: "90%", md: "80%" }}
+          p={"4%"}
+          src={ocean}
+          alt="ocean"
+        />
+
+        <Image w={{ base: "90%", md: "80%" }} p={"4%"} src={yuki} alt="yuki" />
+
+        <Image
+          w={{ base: "90%", md: "80%" }}
+          p={"4%"}
+          src={rabby}
+          alt="rabby"
+        />
+
+        <Image
+          w={{ base: "90%", md: "80%" }}
+          p={"4%"}
+          src={wedding}
+          alt="wedding"
+        />
+
+        <Image w={{ base: "90%", md: "80%" }} p={"4%"} src={yuki} alt="yuki" />
+
+        <Image
+          w={{ base: "90%", md: "80%" }}
+          p={"4%"}
+          src={ocean}
+          alt="ocean"
+        />
+
+        <Image
+          w={{ base: "90%", md: "80%" }}
+          p={"4%"}
+          src={rabby}
+          alt="rabby"
+        />
+
+        <Image
+          w={{ base: "90%", md: "80%" }}
+          p={"4%"}
+          src={wedding}
+          alt="wedding"
+        />
+
+        <Image w={{ base: "90%", md: "80%" }} p={"4%"} src={yuki} alt="yuki" />
+
+        <Image
+          w={{ base: "90%", md: "80%" }}
+          p={"4%"}
+          src={ocean}
+          alt="ocean"
+        />
+
+        <Image
+          w={{ base: "90%", md: "80%" }}
+          p={"4%"}
+          src={rabby}
+          alt="rabby"
+        />
+
+        <Image
+          w={{ base: "90%", md: "80%" }}
+          p={"4%"}
+          src={wedding}
+          alt="wedding"
+        />
+
+        <Image w={{ base: "90%", md: "80%" }} p={"4%"} src={yuki} alt="yuki" />
+
+        <Image
+          w={{ base: "90%", md: "80%" }}
+          p={"4%"}
+          src={ocean}
+          alt="ocean"
+        />
+
+        <Image
+          w={{ base: "90%", md: "80%" }}
+          p={"4%"}
+          src={rabby}
+          alt="rabby"
+        />
+
+        <Image
+          w={{ base: "90%", md: "80%" }}
+          p={"4%"}
+          src={wedding}
+          alt="wedding"
+        />
+
+        <Image w={{ base: "90%", md: "80%" }} p={"4%"} src={yuki} alt="yuki" />
+
+        <Image
+          w={{ base: "90%", md: "80%" }}
+          p={"4%"}
+          src={ocean}
+          alt="ocean"
+        />
+
+        <Image
+          w={{ base: "90%", md: "80%" }}
+          p={"4%"}
+          src={rabby}
+          alt="rabby"
+        />
+
+        <Image
+          w={{ base: "90%", md: "80%" }}
+          p={"4%"}
+          src={wedding}
+          alt="wedding"
+        />
+
+        <Image w={{ base: "90%", md: "80%" }} p={"4%"} src={yuki} alt="yuki" />
+
+        <Image
+          w={{ base: "90%", md: "80%" }}
+          p={"4%"}
+          src={ocean}
+          alt="ocean"
+        />
+
+        <Image
+          w={{ base: "90%", md: "80%" }}
+          p={"4%"}
+          src={rabby}
+          alt="rabby"
+        />
+
+        <Image
+          w={{ base: "90%", md: "80%" }}
+          p={"4%"}
+          src={wedding}
+          alt="wedding"
+        />
+
+        <Image w={{ base: "90%", md: "80%" }} p={"4%"} src={yuki} alt="yuki" />
+
+        <Image
+          w={{ base: "90%", md: "80%" }}
+          p={"4%"}
+          src={ocean}
+          alt="ocean"
+        />
+
+        <Image
+          w={{ base: "90%", md: "80%" }}
+          p={"4%"}
+          src={rabby}
+          alt="rabby"
+        />
+
+        <Image
+          w={{ base: "90%", md: "80%" }}
+          p={"4%"}
+          src={wedding}
+          alt="wedding"
+        />
+
+        <Image w={{ base: "90%", md: "80%" }} p={"4%"} src={yuki} alt="yuki" />
+
+        <Image
+          w={{ base: "90%", md: "80%" }}
+          p={"4%"}
+          src={ocean}
+          alt="ocean"
+        />
+      </Box>
     </>
   );
 };

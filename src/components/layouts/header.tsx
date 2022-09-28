@@ -92,7 +92,7 @@ export const Header: FC = (props) => {
                   _hover={{
                     textDecoration: "none",
                     color: "white",
-                    bg: FirstColor,
+                    bg: "black",
                   }}
                 >
                   Home
@@ -106,7 +106,7 @@ export const Header: FC = (props) => {
                   _hover={{
                     textDecoration: "none",
                     color: "white",
-                    bg: FirstColor,
+                    bg: "Black",
                   }}
                 >
                   Plan
@@ -120,7 +120,7 @@ export const Header: FC = (props) => {
                   _hover={{
                     textDecoration: "none",
                     color: "white",
-                    bg: FirstColor,
+                    bg: "black",
                   }}
                 >
                   pictures
