@@ -98,7 +98,7 @@ export const Header: FC = (props) => {
                   Home
                 </Text>
               </CloseLink>
-              <CloseLink to="/pictures" style={LinkStyle}>
+              <CloseLink to="/plan" style={LinkStyle}>
                 <Text
                   align={"center"}
                   _focus={{ _focus: "none" }}
@@ -112,7 +112,7 @@ export const Header: FC = (props) => {
                   Plan
                 </Text>
               </CloseLink>
-              <CloseLink to="/contact" style={LinkStyle}>
+              <CloseLink to="/pictures" style={LinkStyle}>
                 <Text
                   align={"center"}
                   _focus={{ _focus: "none" }}
@@ -123,7 +123,7 @@ export const Header: FC = (props) => {
                     bg: FirstColor,
                   }}
                 >
-                  Contact
+                  pictures
                 </Text>
               </CloseLink>
             </DrawerBody>

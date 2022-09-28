@@ -11,7 +11,7 @@ import {
 } from "@chakra-ui/react";
 import { FC, ReactNode } from "react";
 import { IoLogoInstagram, IoLogoTiktok } from "react-icons/io5";
-import { Days, FirstColor } from "../../constants";
+import { Days, SecondColor } from "../../constants";
 
 type FeatureProps = {
   text: string;
@@ -85,7 +85,7 @@ export const Footer: FC = () => {
         <SimpleGrid columns={{ base: 1, sm: 2, md: 2, lg: 4 }} spacing={8}>
           <Stack align={"flex-start"}>
             <Text ml={{ base: "10px", md: "20px" }}>
-              <ListHeader>Open to Work</ListHeader>
+              <ListHeader>日時</ListHeader>
               <Box
                 style={{
                   marginTop: "12px",
@@ -108,10 +108,10 @@ export const Footer: FC = () => {
               ml={{ base: "20px", md: "20px" }}
               lineHeight={{ base: "8", md: "40px" }}
             >
-              <ListHeader>Contact</ListHeader>
-              <Text>Phone Number </Text>
-              <Text>0120-117-5963</Text>
-              <Text>Email Adress </Text>
+              <ListHeader>ご連絡先</ListHeader>
+              <Text>電話番号 </Text>
+              <Text decoration={"underline"}>0120-117-5963</Text>
+              <Text>メールアドレス </Text>
               <Text> rabby@gmail.com</Text>
             </Text>
           </Stack>
@@ -121,7 +121,7 @@ export const Footer: FC = () => {
               ml={{ base: "10px", md: "20px" }}
               lineHeight={{ base: "8", md: "40px" }}
             >
-              <ListHeader>Legal</ListHeader>
+              <ListHeader>規約</ListHeader>
               <Text cursor={"pointer"}>Cookies Policy</Text>
               <Text cursor={"pointer"}>Privacy Policy</Text>
               <Text cursor={"pointer"}>Terms of Service</Text>
@@ -134,12 +134,17 @@ export const Footer: FC = () => {
               ml={{ base: "20px", md: "20px" }}
               lineHeight={{ base: "8", md: "60px" }}
             >
-              <ListHeader>Social Media</ListHeader>
+              <ListHeader>SNS</ListHeader>
               <Box cursor={"pointer"} mb={4}>
                 <Feature
                   url="https://www.instagram.com/moralesrrphoto/"
                   icon={
-                    <Icon as={IoLogoInstagram} color={FirstColor} w={7} h={7} />
+                    <Icon
+                      as={IoLogoInstagram}
+                      color={SecondColor}
+                      w={7}
+                      h={7}
+                    />
                   }
                   iconBg={""}
                   text="@moralesrrphoto"
@@ -149,7 +154,7 @@ export const Footer: FC = () => {
                 <Feature
                   url="https://tiktok.com"
                   icon={
-                    <Icon as={IoLogoTiktok} color={FirstColor} w={7} h={7} />
+                    <Icon as={IoLogoTiktok} color={SecondColor} w={7} h={7} />
                   }
                   iconBg={""}
                   text={"@b_panther_ryuki"}
@@ -160,7 +165,12 @@ export const Footer: FC = () => {
                 <Feature
                   url="https://www.instagram.com/carmeloanthony/"
                   icon={
-                    <Icon as={IoLogoInstagram} color={FirstColor} w={7} h={7} />
+                    <Icon
+                      as={IoLogoInstagram}
+                      color={SecondColor}
+                      w={7}
+                      h={7}
+                    />
                   }
                   iconBg={""}
                   text={"@c_anthony_ryuki"}

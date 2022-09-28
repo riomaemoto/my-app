@@ -14,43 +14,33 @@ const plan =
   "https://firebasestorage.googleapis.com/v0/b/my-app-8a156.appspot.com/o/IMG_2399%202.jpg?alt=media&token=e01496b5-f2cc-4875-8116-678d266be08c";
 
 const ocean =
-  "https://firebasestorage.googleapis.com/v0/b/my-app-8a156.appspot.com/o/IMG_2399%202.jpg?alt=media&token=e01496b5-f2cc-4875-8116-678d266be08c";
+  "https://firebasestorage.googleapis.com/v0/b/my-app-8a156.appspot.com/o/IMG_2348.JPG?alt=media&token=a54251c6-a6ea-4374-9f8f-af2f25ae5f96";
+const a =
+  "https://firebasestorage.googleapis.com/v0/b/my-app-8a156.appspot.com/o/a.png?alt=media&token=c631b6e8-4034-4754-8849-15acac5a043d";
 
-export { rabby, plan, logo, yuki, wedding };
+export { rabby, plan, logo, yuki, wedding, ocean, a };
 
-export const secondArr = [
-  "Personal Trainer",
-  "Original Workout plan",
-  "Nutrition & Diet advice",
-  "VR & PEMF Machine (8min)",
-  "product discount 15% off",
-];
+export const secondArr = ["写真枚数　40枚", "撮影時間　2時間", "場所自由"];
 
-export const firstArr = [
-  "Try it for 7 days",
-  "Workout mashine",
-  "VR & PEMF Machine trial",
-  "You can cancel any time",
-];
+export const firstArr = ["写真枚数　20枚", "撮影時間　1時間", "場所自由"];
 
 export const thirdArr = [
-  "Personal Trainer",
-  "Original Workout plan",
-  "Nutrition & Diet advice",
-  "VR & PEMF Machine (16min)",
-  "product discount 15% off",
+  "写真枚数　60枚",
+  "撮影時間　3時間",
+  "場所自由",
+  "ヘアメイク可",
 ];
 
 export const Days = [
-  "Monday",
-  "Tuesday",
-  "Wednesday",
-  "Thursday",
-  "Friday",
-  "Saturday",
-  "Sunday",
+  "月曜日",
+  "火曜日",
+  "水曜日",
+  "木曜日",
+  "金曜日",
+  "土曜日",
+  "日曜日",
 ];
 
-export const FirstColor: string = "WhiteAlpha.200";
+export const FirstColor: string = "#ead090";
 
-export const SecondColor: string = "#ccc";
+export const SecondColor: string = "black";

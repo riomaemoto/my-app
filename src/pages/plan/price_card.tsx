@@ -15,7 +15,7 @@ import { FirstColor } from "../../constants";
 
 type Props = {
   cardTitle: string;
-  fee: number;
+  fee: String;
   checkList: any;
   isShowChip?: boolean;
   isGold?: boolean;
@@ -56,7 +56,7 @@ const TopChip = () => {
         fontWeight="600"
         rounded="xl"
       >
-        Most Popular
+        オススメ
       </Text>
     </Box>
   );
@@ -73,14 +73,11 @@ export const PriceCard: FC<Props> = (props) => {
             {cardTitle}
           </Text>
           <HStack justifyContent="center">
-            <Text fontSize="3xl" fontWeight="600">
-              $
-            </Text>
             <Text fontSize="5xl" fontWeight="900">
               {fee}
             </Text>
             <Text fontSize="3xl" color="gray.500">
-              /month
+              円
             </Text>
           </HStack>
         </Box>
@@ -100,18 +97,6 @@ export const PriceCard: FC<Props> = (props) => {
                 );
               })}
           </List>
-          <Box w="80%" pt={7}>
-            <Button
-              w="full"
-              bg={useColorModeValue(
-                props.isGold ? "#ead090" : undefined,
-                "#ead090"
-              )}
-              _hover={{ bgColor: props.isGold ? FirstColor : FirstColor }}
-            >
-              Start trial
-            </Button>
-          </Box>
         </VStack>
       </Box>
     </PriceWrapper>

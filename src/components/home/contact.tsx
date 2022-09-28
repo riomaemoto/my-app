@@ -1,6 +1,6 @@
 import { init, send } from "emailjs-com";
 import { ChangeEvent, useState } from "react";
-import { Box, Button, Input, Textarea } from "@chakra-ui/react";
+import { Box, Button, Center, Input, Textarea } from "@chakra-ui/react";
 import { ContactText } from "../common/contact_text";
 export const Contact = () => {
   const userId = process.env.REACT_APP_USER_ID;
@@ -36,44 +36,57 @@ export const Contact = () => {
   };
 
   return (
-    <div
-      style={{
-        paddingTop: "30px",
-        paddingLeft: "170px",
-        display: "flex",
-        flexDirection: "column",
-      }}
-    >
-      <ContactText children={"Contact"} bgc={"black"} color={"white"} />
-      <ContactText children={"Name"} bgc={"white"} color={"black"} />
-      <Input
-        w={{ base: "200px", md: "300px" }}
-        ml={{ base: "-20px", md: "510px" }}
-        type={"text"}
-        value={name}
-        onChange={putName}
-      />
-      <ContactText children={"Email"} bgc={"white"} color={"black"} />
-      <Input
-        w={{ base: "300px", md: "300px" }}
-        ml={{ base: "-80px", md: "510px" }}
-        type={"email"}
-        value={email}
-        onChange={putEmail}
-      />
-      <ContactText children={"Message"} bgc={"white"} color={"black"} />
-      <Textarea
-        w={{ base: "300px", md: "300px" }}
-        ml={{ base: "-80px", md: "510px" }}
-        rows={5}
-        value={contents}
-        onChange={putContents}
-      />
-      <Box style={{ marginTop: "20px" }}>
-        <Button m={12} onClick={onSubmit} ml={{ base: "30px", md: "615px" }}>
-          Submit
-        </Button>
+    <Center>
+      <Box
+        style={{
+          paddingTop: "30px",
+          display: "flex",
+          flexDirection: "column",
+        }}
+      >
+        <ContactText children={"連絡先"} bgc={"black"} color={"white"} />
+        <ContactText children={"お名前"} bgc={"white"} color={"black"} />
+        <Input
+          backgroundColor={"gray.100"}
+          type={"text"}
+          w={{ base: 300, md: 500 }}
+          value={name}
+          onChange={putName}
+        />
+        <ContactText
+          children={"メールアドレス"}
+          bgc={"white"}
+          color={"black"}
+        />
+        <Input
+          backgroundColor={"gray.100"}
+          type={"email"}
+          value={email}
+          onChange={putEmail}
+        />
+        <ContactText children={"メッセージ"} bgc={"white"} color={"black"} />
+        <Textarea
+          backgroundColor={"gray.100"}
+          rows={8}
+          value={contents}
+          onChange={putContents}
+        />
+        <Box style={{ marginTop: "20px" }}>
+          <Center>
+            <Button
+              width={"100px"}
+              mb={"80px"}
+              mt={"30px"}
+              textAlign={"center"}
+              onClick={onSubmit}
+              backgroundColor={"black"}
+              color={"white"}
+            >
+              送信
+            </Button>
+          </Center>
+        </Box>
       </Box>
-    </div>
+    </Center>
   );
 };
