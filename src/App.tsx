@@ -2,9 +2,9 @@ import { ChakraProvider } from "@chakra-ui/react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Footer } from "./components/layouts/footer";
 import { Header } from "./components/layouts/header";
-import { Plan } from "./pages/plan/plan";
 import { Home } from "./pages/home";
 import { Pictures } from "./pages/pictures/pictures";
+import { Plan } from "./pages/plan/plan";
 
 const links = [
   { path: "/", component: <Home /> },
