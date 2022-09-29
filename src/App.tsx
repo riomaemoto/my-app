@@ -2,14 +2,14 @@ import { ChakraProvider } from "@chakra-ui/react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Footer } from "./components/layouts/footer";
 import { Header } from "./components/layouts/header";
-import { Plan } from "./pages/plan";
 import { Home } from "./pages/home";
-import { Contact } from "./pages/contact";
+import { Pictures } from "./pages/pictures/pictures";
+import { Plan } from "./pages/plan/plan";
 
 const links = [
   { path: "/", component: <Home /> },
-  { path: "/pictures", component: <Plan /> },
-  { path: "/contact", component: <Contact /> },
+  { path: "/plan", component: <Plan /> },
+  { path: "/pictures", component: <Pictures /> },
 ];
 
 const Router = () => {

@@ -1,67 +1,46 @@
-const storageUrl =
-  "https://firebasestorage.googleapis.com/v0/b/qaqaqa-85b1a.appspot.com/o";
+const rabby =
+  "https://firebasestorage.googleapis.com/v0/b/my-app-8a156.appspot.com/o/IMG_2397.jpg?alt=media&token=094faea1-4e15-4772-b963-390cfe2bf3e2";
 
-const main =
-  storageUrl +
-  "/sideplank_edit.jpg?alt=media&token=b379dd8a-2523-4bd3-bc0b-763824ff8306";
+const logo =
+  "https://firebasestorage.googleapis.com/v0/b/my-app-8a156.appspot.com/o/IMG_2398.jpg?alt=media&token=0da98b5d-ed5b-4b22-ac70-a406a9ec0064";
 
-const looking =
-  storageUrl +
-  "/looking.jpg?alt=media&token=b8540478-6eb2-4acc-8644-bfa94067496d";
+const yuki =
+  "https://firebasestorage.googleapis.com/v0/b/my-app-8a156.appspot.com/o/IMG_2400.jpg?alt=media&token=b868aea0-77a2-4f71-97c1-bd6f0431f135";
 
-const thigh =
-  storageUrl +
-  "/thigh.jpg?alt=media&token=f50cfd74-b173-428f-869f-b73c1fc0bec6";
+const wedding =
+  "https://firebasestorage.googleapis.com/v0/b/my-app-8a156.appspot.com/o/IMG_2401.jpg?alt=media&token=478b2e72-1299-4719-9f8a-7cbbd508dd96";
 
-const pull =
-  storageUrl + "/pull.jpg?alt=media&token=133b7b1c-d1b1-4271-8af1-90b58fafdf17";
+const plan =
+  "https://firebasestorage.googleapis.com/v0/b/my-app-8a156.appspot.com/o/IMG_2399%202.jpg?alt=media&token=e01496b5-f2cc-4875-8116-678d266be08c";
 
-const absgirl =
-  storageUrl +
-  "/absgirl.jpg?alt=media&token=031a1d72-380c-4e58-93dd-c5fa78182df3";
+const ocean =
+  "https://firebasestorage.googleapis.com/v0/b/my-app-8a156.appspot.com/o/IMG_2348.JPG?alt=media&token=a54251c6-a6ea-4374-9f8f-af2f25ae5f96";
+const a =
+  "https://firebasestorage.googleapis.com/v0/b/my-app-8a156.appspot.com/o/a.png?alt=media&token=c631b6e8-4034-4754-8849-15acac5a043d";
 
-const abs =
-  storageUrl + "/abs.jpg?alt=media&token=2c0d9783-def2-49f8-8350-829df2569bba";
+export { rabby, plan, logo, yuki, wedding, ocean, a };
 
-const machine =
-  storageUrl +
-  "/machinezoomin.jpg?alt=media&token=9b1a361c-17e7-45a7-831f-187ee4802f88";
+export const secondArr = ["写真枚数　40枚", "撮影時間　2時間", "場所自由"];
 
-export { abs, absgirl, thigh, main, looking, pull, machine };
-
-export const secondArr = [
-  "Personal Trainer",
-  "Original Workout plan",
-  "Nutrition & Diet advice",
-  "VR & PEMF Machine (8min)",
-  "product discount 15% off",
-];
-
-export const firstArr = [
-  "Try it for 7 days",
-  "Workout mashine",
-  "VR & PEMF Machine trial",
-  "You can cancel any time",
-];
+export const firstArr = ["写真枚数　20枚", "撮影時間　1時間", "場所自由"];
 
 export const thirdArr = [
-  "Personal Trainer",
-  "Original Workout plan",
-  "Nutrition & Diet advice",
-  "VR & PEMF Machine (16min)",
-  "product discount 15% off",
+  "写真枚数　60枚",
+  "撮影時間　3時間",
+  "場所自由",
+  "ヘアメイク可",
 ];
 
 export const Days = [
-  "Monday",
-  "Tuesday",
-  "Wednesday",
-  "Thursday",
-  "Friday",
-  "Saturday",
-  "Sunday",
+  "月曜日",
+  "火曜日",
+  "水曜日",
+  "木曜日",
+  "金曜日",
+  "土曜日",
+  "日曜日",
 ];
 
-export const FirstColor: string = "#ead070";
+export const FirstColor: string = "#ead090";
 
-export const SecondColor: string = "#ccc";
+export const SecondColor: string = "black";
