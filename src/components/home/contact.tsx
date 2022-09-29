@@ -2,6 +2,7 @@ import { init, send } from "emailjs-com";
 import { ChangeEvent, useState } from "react";
 import { Box, Button, Center, Input, Textarea } from "@chakra-ui/react";
 import { ContactText } from "../common/contact_text";
+import { FirstColor, SecondColor } from "../../constants";
 export const Contact = () => {
   const userId = process.env.REACT_APP_USER_ID;
   const serviceId = process.env.REACT_APP_SERVICE_ID;
@@ -44,7 +45,11 @@ export const Contact = () => {
           flexDirection: "column",
         }}
       >
-        <ContactText children={"連絡先"} bgc={"black"} color={"white"} />
+        <ContactText
+          children={"予約 / お問合せ"}
+          bgc={SecondColor}
+          color={"white"}
+        />
         <ContactText children={"お名前"} bgc={"white"} color={"black"} />
         <Input
           backgroundColor={"gray.100"}
@@ -79,8 +84,8 @@ export const Contact = () => {
               mt={"30px"}
               textAlign={"center"}
               onClick={onSubmit}
-              backgroundColor={"black"}
-              color={"white"}
+              backgroundColor={FirstColor}
+              color={SecondColor}
             >
               送信
             </Button>

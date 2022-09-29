@@ -1,24 +1,27 @@
 import { Box, Stack, Heading, Text, VStack } from "@chakra-ui/react";
 import { PriceCard } from "./price_card";
 import { firstArr, secondArr, thirdArr } from "../../constants";
+import { wrap } from "module";
 
 export const Plan = () => {
   return (
     <Box py={32}>
       <VStack spacing={2} textAlign="center">
         <Heading fontWeight={"10px"} as="h1" fontSize="4xl">
-          撮影プラン
+          撮影プラン一覧
         </Heading>
-        <Text fontSize="lg" color={"gray.500"}>
-          お問合せフォーム、又はインスタグラムのダイレクトメッセージからご連絡ください！
+        <Text textAlign={"center"} fontSize="lg" color={"gray.500"} p={"2% 4%"}>
+          お問合せフォーム、又はインスタグラムの <br />
+          ダイレクトメッセージからお気軽にご連絡ください！
         </Text>
       </VStack>
       <Stack
         direction={{ base: "column", md: "row" }}
         textAlign="center"
         justify="center"
-        spacing={{ base: 4, lg: 10 }}
-        py={10}
+        spacing={6}
+        p={10}
+        flexWrap={"wrap"}
       >
         <PriceCard
           cardTitle={"プライベートフォト"}
