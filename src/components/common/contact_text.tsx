@@ -1,8 +1,8 @@
 import { Text } from "@chakra-ui/react";
-import { FC } from "react";
+import { FC, ReactNode } from "react";
 
 type Props = {
-  children: string;
+  children: ReactNode;
   bgc: string;
   color: string;
 };

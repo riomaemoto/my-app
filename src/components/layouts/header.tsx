@@ -13,7 +13,6 @@ import { HamburgerIcon } from "@chakra-ui/icons";
 
 import React, { FC } from "react";
 import { Link } from "react-router-dom";
-import { FirstColor } from "../../constants";
 import { Logo } from "./logo";
 
 type CloseLinkTyp = {
@@ -48,6 +47,10 @@ export const Header: FC = (props) => {
         align="center"
         justify="space-between"
         padding={{ base: 3, md: 5 }}
+        position={{ base: "fixed", md: "static" }}
+        top={0}
+        w={"100vw"}
+        zIndex={10}
       >
         <Logo />
 
