@@ -4,7 +4,7 @@ import { firstArr, secondArr, thirdArr } from "../../constants";
 
 export const Plan = () => {
   return (
-    <Box py={{ base: 73, md: 33 }}>
+    <Box py={{ base: 63, md: 63 }}>
       <VStack spacing={2} textAlign="center">
         <Heading fontWeight={"10px"} as="h1" fontSize="4xl">
           撮影プラン一覧

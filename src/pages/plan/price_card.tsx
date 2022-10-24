@@ -24,6 +24,7 @@ const PriceWrapper: FC<{ children: any }> = ({ children }) => {
   return (
     <Box
       mb={4}
+      h={305}
       shadow="base"
       borderWidth="1px"
       alignSelf={{ base: "center", lg: "flex-start" }}

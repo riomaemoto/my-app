@@ -9,7 +9,7 @@ export const PlanImage = () => {
     setIsDisplay(true);
   }, []);
   return (
-    <Container maxW={"5xl"} py={32} mt={{ base: 15, md: 45 }}>
+    <Container maxW={"5xl"} py={10} mt={{ base: 0, md: 65 }}>
       <Flex display={isDisplay ? "flex" : "none"}>
         <Image
           rounded={"md"}
