@@ -8,12 +8,24 @@ import { Box, Image } from "@chakra-ui/react";
 export const Slider: FC = () => {
   const ImgSize = css`
     img {
-      max-height: 700px;
-      object-fit: contain;
+      margin-top: 0;
+      width: 100%;
+      height: 900px;
+      object-fit: cover;
+    }
+    @media (max-width: 768px) {
+      margin-top: 70px;
+      margin-bottom: 0;
+      img {
+        margin-top: 0;
+        width: 100%;
+        height: 280px;
+        object-fit: fill;
+      }
     }
   `;
   return (
-    <Box mt={"70px"}>
+    <Box>
       <Carousel
         css={ImgSize}
         autoPlay
