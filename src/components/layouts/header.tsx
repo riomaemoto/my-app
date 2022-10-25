@@ -43,7 +43,7 @@ export const Header: FC = (props) => {
     <>
       <Flex
         as="nav"
-        bgColor={"whiteAlpha.100"}
+        bgColor={"none"}
         align="center"
         justify="space-between"
         padding={{ base: 3, md: 5 }}

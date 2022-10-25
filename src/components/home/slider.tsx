@@ -10,17 +10,13 @@ export const Slider: FC = () => {
     img {
       margin-top: 0;
       width: 100%;
-      height: 900px;
       object-fit: cover;
     }
-    @media (max-width: 768px) {
+    @media (max-width: 460px) {
       margin-top: 70px;
       margin-bottom: 0;
       img {
-        margin-top: 0;
-        width: 100%;
-        height: 265px;
-        object-fit: fill;
+        object-fit: cover;
       }
     }
   `;
