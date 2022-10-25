@@ -56,7 +56,11 @@ export const Header: FC = (props) => {
 
         <Flex align="center" as="a" mr={8} _hover={{ cursor: "pointer" }}>
           <Link to="/">
-            <Heading as="h1" fontSize={{ base: "md", md: "lg" }}>
+            <Heading
+              display={{ base: "none", md: "block" }}
+              as="h1"
+              fontSize={"lg"}
+            >
               <Text
                 align={"center"}
                 color={"black"}
@@ -70,7 +74,6 @@ export const Header: FC = (props) => {
             </Heading>
           </Link>
         </Flex>
-
         <IconButton
           color={"blackAlpha.900"}
           aria-label="メニューボタン"

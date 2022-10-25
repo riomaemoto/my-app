@@ -19,7 +19,7 @@ export const Slider: FC = () => {
       img {
         margin-top: 0;
         width: 100%;
-        height: 280px;
+        height: 265px;
         object-fit: fill;
       }
     }

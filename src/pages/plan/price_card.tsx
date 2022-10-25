@@ -24,7 +24,6 @@ const PriceWrapper: FC<{ children: any }> = ({ children }) => {
   return (
     <Box
       mb={4}
-      h={305}
       shadow="base"
       borderWidth="1px"
       alignSelf={{ base: "center", lg: "flex-start" }}
@@ -84,6 +83,7 @@ export const PriceCard: FC<Props> = (props) => {
         <VStack
           bg={useColorModeValue("gray.50", "gray.700")}
           py={4}
+          h={160}
           borderBottomRadius={"xl"}
         >
           <List spacing={3} textAlign="start" px={12}>

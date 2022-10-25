@@ -139,6 +139,7 @@ export const Contact = () => {
                 mb={"80px"}
                 mt={"30px"}
                 textAlign={"center"}
+                _hover={{ backgroundColor: FirstColor }}
                 backgroundColor={FirstColor}
                 color={SecondColor}
                 disabled={isLoading}
