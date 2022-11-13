@@ -1,9 +1,10 @@
-import { Box, Text, Image, Container } from "@chakra-ui/react"
-import { forest, hedo, rabby, wedding, womanBright } from "../../constants"
+import { Box, Text, Image} from "@chakra-ui/react"
+import { forest, rabby } from "../../constants"
 
 export const Profile = () => {
     return <>
-    <Box p={5} bgImage={forest}>
+    <Text fontSize={"40px"} mb={10} color={"black"} fontFamily={"Sawarabi Mincho"} textAlign={"center"}>「 PROFILE 」</Text>
+    <Box p={20} bgImage={forest} mb={10}>
         <Text fontSize={{base:"25px", md:"45px"}} mb={5} color={"white"} fontFamily={"Sawarabi Mincho"} textAlign={"center"}>PHOTOGRAPHER</Text>
         <Image
           mx={"auto"}

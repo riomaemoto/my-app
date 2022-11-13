@@ -41,13 +41,13 @@ export const Footer: FC = () => {
     <Flex
       p={5}
       justifyContent={"center"}
-      bgImage={beachHug}
+      bgColor={"black"}
     >
       <Link href="https://instagram.com">
         <Icon
           cursor={"pointer"}
           as={IoLogoInstagram}
-          color={"whiteAlpha.800"}
+          color={"white"}
           w={50}
           h={50}
         />

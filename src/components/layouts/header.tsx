@@ -13,7 +13,7 @@ import { HamburgerIcon } from "@chakra-ui/icons";
 
 import React, { FC } from "react";
 import { Link } from "react-router-dom";
-// import { Logo } from "./logo";
+import { Logo } from "./logo";
 
 type CloseLinkTyp = {
   to: string;
@@ -72,7 +72,7 @@ export const Header: FC = (props) => {
             </Heading>
           </Link>
         </Flex>
-        <IconButton
+        {/* <IconButton
           color={"blackAlpha.900"}
           aria-label="メニューボタン"
           icon={<HamburgerIcon boxSize={8} />}
@@ -81,7 +81,7 @@ export const Header: FC = (props) => {
           display={{ base: "colmn", md: "colmn" }}
           _focus={{ _focus: "none" }}
           onClick={onOpen}
-        />
+  />*/}
       </Flex>
 
       <Drawer placement="top" size="xs" onClose={onClose} isOpen={isOpen}>

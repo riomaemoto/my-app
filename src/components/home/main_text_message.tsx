@@ -3,7 +3,7 @@ import { Text, Center, Box } from "@chakra-ui/react";
 export const MainTextMessage = () => {
   return (
     <Center>
-      <Box my={10} p={8}>
+      <Box mt={10} p={8}>
         <Text fontFamily={"Sawarabi Mincho"} align={"center"}  fontSize={{base: "30px", md: "45px" }}>
           その一瞬が「ten carat」の輝き
         </Text>
