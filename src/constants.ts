@@ -21,8 +21,12 @@ const kiss =
   "https://firebasestorage.googleapis.com/v0/b/my-app-8a156.appspot.com/o/IMG_3042.JPG?alt=media&token=001c66a3-7b40-4637-9947-5e6eb7adc564";
 const hedo =
   "https://firebasestorage.googleapis.com/v0/b/my-app-8a156.appspot.com/o/IMG_3046.JPG?alt=media&token=fc855794-356b-44dc-90cd-bda225056610";
+const beachHug =
+  "https://firebasestorage.googleapis.com/v0/b/my-app-8a156.appspot.com/o/IMG_3043.JPG?alt=media&token=9f81b642-9607-4dcf-843f-6fbd77f9bb25";
+const womanBright =
+  "https://firebasestorage.googleapis.com/v0/b/my-app-8a156.appspot.com/o/IMG_3044.JPG?alt=media&token=24f89ad3-3386-4c8e-bc59-79743d9045a1";
 
-export { rabby, plan, logo, yuki, wedding, forest, womanCloseUp, kiss, hedo};
+export { rabby, plan, logo, yuki, wedding, forest, womanCloseUp, kiss, hedo, beachHug, womanBright};
 
 export const secondArr = ["写真枚数　40枚", "撮影時間　2時間", "場所自由"];
 
