@@ -18,7 +18,8 @@ export const ContactText: FC<Props> = ({ children, bgc, color }) => {
       bgColor={bgc}
       color={color}
       borderRadius={2}
-      align={"center"}
+      textAlign={"center"}
+      fontFamily={"Sawarabi Mincho"}
     >
       {children}
     </Text>

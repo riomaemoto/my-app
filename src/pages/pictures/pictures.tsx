@@ -1,5 +1,5 @@
 import { Box, Image } from "@chakra-ui/react";
-import { ocean, rabby, wedding, yuki } from "../../constants";
+import { rabby, wedding, yuki } from "../../constants";
 export const Pictures = () => {
   return (
     <>
@@ -21,8 +21,8 @@ export const Pictures = () => {
         <Image
           w={{ base: "90%", md: "80%" }}
           p={"4%"}
-          src={ocean}
-          alt="ocean"
+          src={rabby}
+          alt="rabby"
         />
 
         <Image w={{ base: "90%", md: "80%" }} p={"4%"} src={yuki} alt="yuki" />
@@ -46,8 +46,8 @@ export const Pictures = () => {
         <Image
           w={{ base: "90%", md: "80%" }}
           p={"4%"}
-          src={ocean}
-          alt="ocean"
+          src={rabby}
+          alt="rabby"
         />
 
         <Image
@@ -69,8 +69,8 @@ export const Pictures = () => {
         <Image
           w={{ base: "90%", md: "80%" }}
           p={"4%"}
-          src={ocean}
-          alt="ocean"
+          src={rabby}
+          alt="rabby"
         />
 
         <Image
@@ -92,8 +92,8 @@ export const Pictures = () => {
         <Image
           w={{ base: "90%", md: "80%" }}
           p={"4%"}
-          src={ocean}
-          alt="ocean"
+          src={rabby}
+          alt="rabby"
         />
 
         <Image
@@ -115,8 +115,8 @@ export const Pictures = () => {
         <Image
           w={{ base: "90%", md: "80%" }}
           p={"4%"}
-          src={ocean}
-          alt="ocean"
+          src={rabby}
+          alt="rabby"
         />
 
         <Image
@@ -138,8 +138,8 @@ export const Pictures = () => {
         <Image
           w={{ base: "90%", md: "80%" }}
           p={"4%"}
-          src={ocean}
-          alt="ocean"
+          src={rabby}
+          alt="rabby"
         />
 
         <Image
@@ -161,8 +161,8 @@ export const Pictures = () => {
         <Image
           w={{ base: "90%", md: "80%" }}
           p={"4%"}
-          src={ocean}
-          alt="ocean"
+          src={rabby}
+          alt="rabby"
         />
 
         <Image
@@ -184,8 +184,8 @@ export const Pictures = () => {
         <Image
           w={{ base: "90%", md: "80%" }}
           p={"4%"}
-          src={ocean}
-          alt="ocean"
+          src={rabby}
+          alt="rabby"
         />
       </Box>
     </>

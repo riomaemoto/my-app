@@ -13,12 +13,16 @@ const wedding =
 const plan =
   "https://firebasestorage.googleapis.com/v0/b/my-app-8a156.appspot.com/o/IMG_2399%202.jpg?alt=media&token=e01496b5-f2cc-4875-8116-678d266be08c";
 
-const ocean =
-  "https://firebasestorage.googleapis.com/v0/b/my-app-8a156.appspot.com/o/IMG_2348.JPG?alt=media&token=a54251c6-a6ea-4374-9f8f-af2f25ae5f96";
-const a =
-  "https://firebasestorage.googleapis.com/v0/b/my-app-8a156.appspot.com/o/a.png?alt=media&token=c631b6e8-4034-4754-8849-15acac5a043d";
+const forest =
+  "https://firebasestorage.googleapis.com/v0/b/my-app-8a156.appspot.com/o/IMG_3040.JPG?alt=media&token=168149af-d718-42be-afa4-f4d914a33f8c";
+const womanCloseUp =
+  "https://firebasestorage.googleapis.com/v0/b/my-app-8a156.appspot.com/o/IMG_3041.JPG?alt=media&token=ee6ddcc4-08a4-48ba-b37b-8ce69e869a66";
+const kiss =
+  "https://firebasestorage.googleapis.com/v0/b/my-app-8a156.appspot.com/o/IMG_3042.JPG?alt=media&token=001c66a3-7b40-4637-9947-5e6eb7adc564";
+const hedo =
+  "https://firebasestorage.googleapis.com/v0/b/my-app-8a156.appspot.com/o/IMG_3046.JPG?alt=media&token=fc855794-356b-44dc-90cd-bda225056610";
 
-export { rabby, plan, logo, yuki, wedding, ocean, a };
+export { rabby, plan, logo, yuki, wedding, forest, womanCloseUp, kiss, hedo};
 
 export const secondArr = ["写真枚数　40枚", "撮影時間　2時間", "場所自由"];
 

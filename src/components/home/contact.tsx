@@ -78,7 +78,7 @@ export const Contact = () => {
           }}
         >
           <ContactText
-            children={"予約 / お問合せ"}
+            children={"CONTACT"}
             bgc={SecondColor}
             color={"white"}
           />
@@ -119,7 +119,7 @@ export const Contact = () => {
           <ContactText
             children={
               <>
-                メッセージ<span style={{ color: "red" }}>*</span>
+                本文<span style={{ color: "red" }}>*</span>
               </>
             }
             bgc={"white"}
