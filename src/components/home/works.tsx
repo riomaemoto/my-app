@@ -14,7 +14,7 @@ export const Works = () => {
         <Image border={"1px solid white"} m={0} w={{base:"50%", md:"25%"}} h={{base:150,md:270}} objectFit={"cover"} src={wedding} alt="rabby" />
         <Image border={"1px solid white"} m={0} w={{base:"50%", md:"25%"}} h={{base:150,md:270}} objectFit={"cover"} src={yuki} alt="rabby" />
         <Image border={"1px solid white"} m={0} w={{base:"50%", md:"25%"}} h={{base:150,md:270}} objectFit={"cover"} src={rabby} alt="rabby" />
-        <Image border={"1px solid white"} m={0} w={{base:"50%", md:"25%"}} h={{base:150,md:270}} objectFit={"cover"} src={wedding} alt="rabby" />
+        
       </Flex>
     </Box>
     </>
