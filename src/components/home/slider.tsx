@@ -3,14 +3,14 @@ import { css } from "@emotion/react";
 import { FC } from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
-import { beachHug, forest,  hedo,  kiss, womanBright, womanCloseUp } from "../../constants";
+import { hedo,  kiss, womanBright, womanCloseUp } from "../../constants";
 import { Box, Image } from "@chakra-ui/react";
 export const Slider: FC = () => {
   const ImgSize = css`
     img {
       object-fit: cover;
       height: 100vh;
-      margin-top: 0;
+      margin-top: 0px;
     }
     @media (max-width: 460px) {
       margin-bottom: 0;
@@ -28,12 +28,10 @@ export const Slider: FC = () => {
         showThumbs={false}
         stopOnHover={false}
       >
-        <Image mt={"5px"} src={kiss} alt="kiss" />
-        <Image mt={"5px"} src={womanBright} alt="womanBright" />
-        <Image mt={"5px"} src={forest} alt="forest" />
-        <Image mt={"5px"} src={womanCloseUp} alt="womanCloseUp" />
-        <Image mt={"5px"} src={hedo} alt="hedo" />
-        <Image mt={"5px"} src={beachHug} alt="beachHug" />
+        <Image src={hedo} alt="hedo" />
+        <Image src={kiss} alt="kiss" />
+        <Image src={womanBright} alt="womanBright" />
+        <Image src={womanCloseUp} alt="womanCloseUp" />
       </Carousel>
     </Box>
   );

@@ -28,27 +28,6 @@ const womanBright =
 
 export { rabby, plan, logo, yuki, wedding, forest, womanCloseUp, kiss, hedo, beachHug, womanBright};
 
-export const secondArr = ["写真枚数　40枚", "撮影時間　2時間", "場所自由"];
-
-export const firstArr = ["写真枚数　20枚", "撮影時間　1時間", "場所自由"];
-
-export const thirdArr = [
-  "写真枚数　60枚",
-  "撮影時間　3時間",
-  "場所自由",
-  "ヘアメイク可",
-];
-
-export const Days = [
-  "月曜日",
-  "火曜日",
-  "水曜日",
-  "木曜日",
-  "金曜日",
-  "土曜日",
-  "日曜日",
-];
-
 export const FirstColor: string = "#ead090";
 
 export const SecondColor: string = "black";
