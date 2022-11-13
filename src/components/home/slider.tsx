@@ -8,12 +8,11 @@ import { Box, Image } from "@chakra-ui/react";
 export const Slider: FC = () => {
   const ImgSize = css`
     img {
-      margin-top: 0;
-      width: 100%;
       object-fit: cover;
+      height: 100vh;
+      margin-top: 0;
     }
     @media (max-width: 460px) {
-      margin-top: 70px;
       margin-bottom: 0;
       img {
         object-fit: cover;

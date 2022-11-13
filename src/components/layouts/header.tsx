@@ -13,7 +13,7 @@ import { HamburgerIcon } from "@chakra-ui/icons";
 
 import React, { FC } from "react";
 import { Link } from "react-router-dom";
-import { Logo } from "./logo";
+// import { Logo } from "./logo";
 
 type CloseLinkTyp = {
   to: string;
@@ -47,12 +47,12 @@ export const Header: FC = (props) => {
         align="center"
         justify="space-between"
         padding={{ base: 3, md: 5 }}
-        position={{ base: "fixed", md: "static" }}
+        position={"fixed"}
         top={0}
         w={"100vw"}
         zIndex={10}
       >
-        <Logo />
+        {/* <Logo /> */}
 
         <Flex align="center" as="a" mr={8} _hover={{ cursor: "pointer" }}>
           <Link to="/">
@@ -68,9 +68,7 @@ export const Header: FC = (props) => {
                 letterSpacing={4}
                 maxW="full"
                 mt={0}
-              >
-                MoralesrrPhoto
-              </Text>
+              ></Text>
             </Heading>
           </Link>
         </Flex>
