@@ -1,5 +1,5 @@
-import { Box, Image, Text} from "@chakra-ui/react";
-import { rabby, wedding, yuki } from "../../constants";
+import { Box, Image} from "@chakra-ui/react";
+import { kiss, rabby, hedo } from "../../constants";
 
 export const Menu = () => {
   return (
@@ -21,7 +21,7 @@ export const Menu = () => {
           h={{base:200, md:250}}
           borderRadius={"50%"}
           mb={"60px"}
-          src={wedding}
+          src={kiss}
           alt="rabby"
           objectFit={"cover"}
         />
@@ -31,7 +31,7 @@ export const Menu = () => {
           h={{base:200, md:250}}
           borderRadius={"50%"}
           mb={"60px"}
-          src={yuki}
+          src={hedo}
           alt="rabby"
           objectFit={"cover"}
         />
