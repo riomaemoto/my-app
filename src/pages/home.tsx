@@ -1,15 +1,17 @@
 import { Slider } from "../components/home/slider";
 import { FC } from "react";
-import { PlanImage } from "../components/home/split_with_image";
 import { Contact } from "../components/home/contact";
-import { Plan } from "./plan/plan";
+import { MainTextMessage } from "../components/home/main_text_message";
+import { Works } from "../components/home/works";
+import { Menu } from "./menu/menu";
 
 export const Home: FC = () => {
   return (
     <>
       <Slider />
-      <PlanImage />
-      <Plan />
+      <MainTextMessage />
+      <Menu />
+      <Works />
       <Contact />
     </>
   );

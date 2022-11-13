@@ -4,11 +4,11 @@ import { Footer } from "./components/layouts/footer";
 import { Header } from "./components/layouts/header";
 import { Home } from "./pages/home";
 import { Pictures } from "./pages/pictures/pictures";
-import { Plan } from "./pages/plan/plan";
+import { Menu } from "./pages/menu/menu";
 
 const links = [
   { path: "/", component: <Home /> },
-  { path: "/plan", component: <Plan /> },
+  { path: "/menu", component: <Menu /> },
   { path: "/pictures", component: <Pictures /> },
 ];
 
