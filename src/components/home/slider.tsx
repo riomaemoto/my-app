@@ -29,7 +29,7 @@ export const Slider: FC = () => {
         stopOnHover={false}
       >
         <Image mt={"5px"} src={rabby} alt="rabby" />
-        <Image mt={"5px"} src={yuki} alt="yuki" />
+        <Image mt={"5px"} src={rabby} alt="yuki" />
         <Image mt={"5px"} src={wedding} alt="wedding" />
       </Carousel>
     </Box>

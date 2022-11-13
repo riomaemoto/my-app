@@ -4,6 +4,7 @@ import { Contact } from "../components/home/contact";
 import { MainTextMessage } from "../components/home/main_text_message";
 import { Works } from "../components/home/works";
 import { Menu } from "./menu/menu";
+import { Profile } from "../components/home/profile";
 
 export const Home: FC = () => {
   return (
@@ -12,6 +13,7 @@ export const Home: FC = () => {
       <MainTextMessage />
       <Menu />
       <Works />
+      <Profile />
       <Contact />
     </>
   );
