@@ -5,6 +5,7 @@ import {
   Link,
   Flex,
 } from "@chakra-ui/react";
+import styled from "@emotion/styled";
 import { FC, ReactNode } from "react";
 import { IoLogoInstagram, IoLogoTiktok } from "react-icons/io5";
 import { beachHug, hedo, rabby, SecondColor, wedding, womanBright } from "../../constants";
@@ -36,6 +37,16 @@ const Feature: FC<FeatureProps> = ({ icon, iconBg, url }) => {
 };
 
 export const Footer: FC = () => {
+
+  const Elink = styled(Link)`
+    &:hover{
+      transform: scale(1.1);
+      transition: 0.5s;
+      transform: rotateZ(20deg);
+    }
+  `
+
+
   return (
     <>
     <Flex
@@ -43,7 +54,7 @@ export const Footer: FC = () => {
       justifyContent={"center"}
       bgColor={"black"}
     >
-      <Link href="https://instagram.com">
+      <Elink href="https://instagram.com">
         <Icon
           cursor={"pointer"}
           as={IoLogoInstagram}
@@ -51,7 +62,7 @@ export const Footer: FC = () => {
           w={50}
           h={50}
         />
-      </Link>  
+      </Elink>  
     </Flex>
       </>
   );

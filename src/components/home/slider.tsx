@@ -27,6 +27,8 @@ export const Slider: FC = () => {
         infiniteLoop
         showThumbs={false}
         stopOnHover={false}
+        showStatus={false}
+        showArrows={false}
       >
         <Image src={hedo} alt="hedo" />
         <Image src={kiss} alt="kiss" />
