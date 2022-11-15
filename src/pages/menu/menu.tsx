@@ -16,6 +16,9 @@ const FloatText = styled(Text)`
   left: 50%;
   top: 40%;
   transform: translate(-50%, -50%);
+  @media (max-width: 767px) {
+    top: 50%;
+  }
 `;
 
 const ImageBox = styled(Box)`
