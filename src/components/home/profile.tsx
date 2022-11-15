@@ -34,12 +34,15 @@ export const Profile = () => {
       height: 50%;
     }
     @media (min-width: 680px) {
-      margin-inline: auto;
-      width: 250px;
-      height: 250px;
-      border-radius: 50%;
-      margin-bottom: 25px;
-      object-fit: cover;
+      &:hover {
+        transform: scale(1.2);
+        margin-inline: auto;
+        width: 350px;
+        height: 250px;
+        border-radius: 2%;
+        margin-bottom: 25px;
+        object-fit: cover;
+      }
     }
   `;
 

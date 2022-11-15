@@ -1,6 +1,6 @@
-import { Box, Image, Link, Text } from "@chakra-ui/react";
+import { Box, Image, Text } from "@chakra-ui/react";
 import styled from "@emotion/styled";
-import { hedo } from "../../constants";
+import { beachHug, hedo, kiss } from "../../constants";
 
 const ZImage = styled(Image)`
   &:hover {
@@ -43,6 +43,34 @@ export const Menu = () => {
             borderRadius={"50%"}
             mb={"60px"}
             src={hedo}
+            alt="rabby"
+            objectFit={"cover"}
+            opacity={"80%"}
+          />
+          <FloatText>Works</FloatText>
+        </ImageBox>
+        <ImageBox position={"relative"}>
+          <ZImage
+            mx={{ base: "auto", md: 10 }}
+            w={{ base: 200, md: 250 }}
+            h={{ base: 200, md: 250 }}
+            borderRadius={"50%"}
+            mb={"60px"}
+            src={kiss}
+            alt="rabby"
+            objectFit={"cover"}
+            opacity={"80%"}
+          />
+          <FloatText>Works</FloatText>
+        </ImageBox>
+        <ImageBox position={"relative"}>
+          <ZImage
+            mx={{ base: "auto", md: 10 }}
+            w={{ base: 200, md: 250 }}
+            h={{ base: 200, md: 250 }}
+            borderRadius={"50%"}
+            mb={"60px"}
+            src={beachHug}
             alt="rabby"
             objectFit={"cover"}
             opacity={"80%"}
