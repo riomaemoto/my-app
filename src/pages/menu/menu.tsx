@@ -22,6 +22,9 @@ const ImageBox = styled(Box)`
   &:hover {
     p {
       display: block;
+      font-size: 35px;
+      color: white;
+      font-weight: 700;
     }
   }
 `;
