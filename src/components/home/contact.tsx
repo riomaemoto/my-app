@@ -8,7 +8,7 @@ import {
   Spinner,
   Textarea,
   useToast,
-  Text
+  Text,
 } from "@chakra-ui/react";
 import { ContactText } from "../common/contact_text";
 import { FirstColor, SecondColor } from "../../constants";
@@ -79,7 +79,14 @@ export const Contact = () => {
             flexDirection: "column",
           }}
         >
-          <Text textAlign={"center"} fontSize={"50px"} fontFamily={"Sawarabi Mincho"} mb={10}>「 Contact 」</Text>
+          <Text
+            textAlign={"center"}
+            fontSize={"50px"}
+            fontFamily={"Sawarabi Mincho"}
+            mb={10}
+          >
+            「 Contact 」
+          </Text>
           <ContactText
             children={
               <>
